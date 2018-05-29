@@ -1,0 +1,282 @@
+% LaTeX Syllabus Template
+
+
+% Copyright (C) 2004-2018 Ricardo Ceneviva 
+% http://ricardoceneviva.com
+
+
+% You may use use this document as a template to create your own Syllabus
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+
+\documentclass[a4paper, 12pt]{article}
+
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+
+\usepackage[sc,osf]{mathpazo}
+
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}  % allow for non-latin characters
+
+%LANGUAGE == Port(br)
+
+\usepackage[brazil]{babel}     %esse pacote é para hifenização
+\usepackage[T1]{fontenc}
+
+\usepackage{bold-extra}            %Activate to use  bold small capitals
+%\setlength{\textheight}{9.5in}      % increase text height to fit on 1-page 
+\usepackage{ae,aeguill}             %to obtain a good looking PDF document:
+
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+
+%\usepackage{fancyhdr}        % adds header & footer
+
+% Set your name here
+\def\name{Ricardo Ceneviva}
+
+% Replace this with a link to your Course website if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\lhead{Ricardo Ceneviva}
+%\rhead{Métodos}
+%\rfoot{\thepage}
+\def\footerlink{http://ricardoceneviva.com/Matematica/}
+
+\usepackage{hyperref}             % The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {Matematica, nivel básico, iesp-uerj},
+  pdftitle = {\name: Syllabus},
+  pdfsubject = {Political Methodology},
+  pdfpagemode = UseNone
+}
+
+\usepackage{geometry}
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large\bf}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+\pagestyle{plain}
+
+% Place name at left
+%{ \center \huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\begin{center}
+\begin{bf} 
+
+\href{http://www.iesp.uerj.br/}{Instituto de Estudos Sociais e Políticos} \\
+
+Universidade do Estado do Rio de Janeiro \\
+
+
+\vspace{0.5cm}
+
+\Large
+
+\Large{Matemática Básica para Ciências Socais}
+
+\vspace{0.5cm}
+
+\normalsize
+
+
+1º Semestre de 2017 \\
+\vspace{0.5cm}
+
+
+Professor: Ricardo Ceneviva \\
+\href{mailto:ceneviva@iesp.uerj.br}{\tt ceneviva@iesp.uerj.br} \\
+\vspace{0.25cm}
+
+Monitora: Cynthia Cunha \\
+\href{mailto:cunha.cynthia@gmail.com}{\tt cunha.cynthia@gmail.comr} \\
+\vspace{0.5cm}
+
+Carga Horária: 15 horas \\
+ 
+\end{bf}
+\end{center}
+
+
+\section*{Objetivos do Curso}
+
+O objetivo deste curso é promover e uma revisão de conceitos básicos de matemática e um nivelamento entre os estudantes que cursarão ``Introdução à Análise de Dados'' (Lego I). Este curso é destinado aos alunos que necessitam de uma revisão intensiva em conceitos matemáticos básicos, que são essenciais para um bom aproveitamento do curso de Lego I e, mais amplamente, para uma melhor compreensão de análise quantitativa nas pesquisas em Ciências Sociais, com um especial foco em Sociologia, Ciência Política e Relações Internacionais.
+
+Este mini-curso de ``Matemática Básica para Ciências Sociais'' será realizado na primeira semana (de 07 a 10 de março) do curso regular de Introdução à Análise de Dados, com sessões pelas manhãs, das 9:00h às 12:00h, e funcionará como um curso preparatório para Lego I. Ele cobrirá temas como a notação matemática, teoria dos conjuntos,  sistemas numéricos, álgebra, funções, e soluções para sistemas de equações lineares. Este mini-curso de nivelamento é obrigatório para TODOS os alunos que pretendam cursar Introdução a Análise de Dados.
+
+\section*{Pré-requisitos}
+
+Não há pré-requisitos para esse curso.  
+
+
+\section*{Sumário do curso}
+
+\begin{enumerate}
+
+\item Preliminares e Revisão de Álgebra 
+\item Funções, Limites e Utilidade
+\item Derivadas 
+\item Integrais
+\item Teoria dos Conjuntos e Probabilidades
+
+\end{enumerate}
+
+
+\vspace{1.0cm}
+
+\section*{Programa}
+
+\subsection*{\textbf{Aula 1} (dia 07/03) : ``Notação Matemática e Revisão de Algebra''} 
+\begin{itemize}
+
+\item Gill, Jeff. (2006). Essential Mathematics for Political and Social Research.  \textbf{chapter 1, sections 1.1, 1.2, 1.3 and 1.4.}
+
+
+\item Moore, Will, and David Siegel. (2013). A Mathematics Course for Political and Social Research. \textbf{chapter 1.}
+
+\end{itemize}
+
+
+\subsection*{\textbf{Aula 2} (dia 08/03): ``Funções, Equações e Utilidade''} 
+\begin{itemize}
+
+\item \textbf{Leitura Básica}
+
+\item Moore, Will, and David Siegel. 2013. A Mathematics Course for Political and Social Research, \textbf{capítulo 3}
+
+\item \textbf{Leitura Complementar}
+
+\item Gill, Jeff. (2006). Essential Mathematics for Political and Social Research, \textbf{capítulo 1, seções 1.5, 1.6, 1.7, 1.8 e 1.9.}
+
+\item Lista de exercícios 1 
+
+\end{itemize}
+
+
+
+\subsection*{\textbf{Aula 3} (dia 09/03): ``Limites e Derivadas''} 
+\begin{itemize}
+
+\item \textbf{Leitura Básica}
+
+\item Moore, Will, and David Siegel. 2013. A Mathematics Course for Political and Social Research, \textbf{capítulos 4, 5 e 6.}
+
+\item \textbf{Leitura Complementar}
+
+\item Gill, Jeff. (2006). Essential Mathematics for Political and Social Research,  \textbf{capítulo 5.}
+
+\item Lista de exercícios 2
+
+\end{itemize}
+
+
+\subsection*{\textbf{Aula 4} (dia 10/03): ``Integrais e Outras Regras de Derivação''} 
+\begin{itemize}
+
+\item \textbf{Leitura Básica}
+
+\item Moore, Will, and David Siegel. 2013. A Mathematics Course for Political and Social Research, \textbf{capítulos 7 e 8, seção 8.2.}
+
+\item \textbf{Leitura Complementar}
+
+\item Gill, Jeff. (2006). Essential Mathematics for Political and Social Research,  \textbf{capítulo 6.}
+
+\item Lista de exercícios 3
+
+\end{itemize}
+
+
+
+%\subsection*{\textbf{Aula 5} (dia 11/03): ``Teoria dos Conjuntos e Noções de Probabilidade''} 
+%\begin{itemize}
+
+%\item \textbf{Leitura Básica}
+
+%\item Moore, Will, and David Siegel. 2013. A Mathematics Course for Political and Social Research, \textbf{capítulos 8, 15 e 16.}
+
+%\item \textbf{Leitura Complementar}
+
+%\item Gill, Jeff. (2006). Essential Mathematics for Political and Social Research,  \textbf{capítulo 7.}
+
+%\item Lista de exercícios 4
+
+\%end{itemize}
+
+
+\vspace{1.0cm}
+
+\section*{Referências Bibliográficas}
+%\vspace{1.0cm}
+\begin{enumerate}
+
+\item \textsc{Gill}, Jeff. (2006). \emph{Essential Mathematics for Political and Social Research}. 1st Edition, Cambridge University Press.
+
+\vspace{0.5cm}
+
+\item \textsc{Moore}, Will, and David \textsc{Siegel}. (2013). \emph{A Mathematics Course for Political and Social Research}. 1st edition, Princeton, N.J.: Princeton University Press.
+
+\vspace{0.5cm}
+
+\item \textsc{Simon}, Carl, and Lawrence \textsc{Blume}. (2004). \emph{Matemática para Economistas.} Porto Alegre, Editora Bookman. 
+
+\end{enumerate}
+
+
+
+%\bigskip
+ 
+\vspace{1cm}
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Versão preliminar e sujeita a  alterações, atualizada em: \today. \\
+    Documento produzido em \LaTeX  \\
+    
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
